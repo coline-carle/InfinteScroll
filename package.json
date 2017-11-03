@@ -5,6 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "auto-reload-brunch": "^2.7.1",
+    "ava": "^0.23.0",
     "babel-brunch": "^6.1.1",
     "babel-plugin-lodash": "^3.2.11",
     "babel-preset-env": "^1.6.1",
@@ -18,7 +19,7 @@
     ]
   },
   "scripts": {
-    "test": "xo"
+    "test": "xo && ava"
   },
   "dependencies": {
     "lodash": "^4.17.4"
