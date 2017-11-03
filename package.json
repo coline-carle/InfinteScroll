@@ -1,0 +1,26 @@
+{
+  "name": "InfinteScroll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "^6.1.1",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-preset-env": "^1.6.1",
+    "brunch": "^2.10.12",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": 2,
+    "envs": [
+      "browser"
+    ]
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
