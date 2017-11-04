@@ -1,20 +1,24 @@
 module.exports = {
   paths: {
     public: 'dev',
-    watched: ['src']
+    watched: ['app']
   },
   files: {
     javascripts: {
       joinTo: {
-        'js/infinite-scroll.js': /^src/,
-        'js/vendor.js': /^(?!src)/
+        'app.js': /^app/,
+        'vendor.js': /^(?!app)/
       }
+    },
+    stylesheets: {
+      joinTo: 'app.css'
     }
   },
-
+  server: {
+    run: true
+  },
   plugins: {
     babel: {
-      plugins: ['lodash'],
       presets: [['env', {
         targets: {
           browsers: ['last 2 versions']

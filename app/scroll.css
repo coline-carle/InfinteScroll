@@ -1,0 +1,19 @@
+
+#scrollDiv {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+  color: #fff;
+}
+#scrollDiv  li {
+  padding: 10px;
+  float: left;
+}
+#scrollDiv li > div {
+  background: #808080;
+  height: 180px;
+  width: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
